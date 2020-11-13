@@ -8,7 +8,7 @@ import { fetchData } from "./modules/fetch.js";
 
         for (let user in data) {
             let currentFavourite = userTemplate.cloneNode(true),
-                currentFavouriteText = currentFavourite.querySelector('.user').children;
+                currentFavouriteText = currentFavourite.querySelector('.Favourite').children;
             
             currentFavouriteText[1].textContent = data[user].title;
             currentFavouriteText[2].src = `images/${data[user].image}`;
