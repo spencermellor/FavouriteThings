@@ -3,28 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Spencer's Favourite Things</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
 <body>
-    <div>
+
+    <div class="header">
         <h1 class="hidden">Header</h1>
+        <!-- <h2 class="outline">FAVOURITE THINGS</h2> -->
+        <h2 class="border">FAVOURITE THINGS</h2>
+        <h3>BY SPENCER MELLOR</h3>
+        <p>Welcome to thee one and only Spencer Mellors favourite things on planet earth page</p>
     </div>
+
     <section class="user-section">
         <!-- <h1 class="hidden"></h1>
         <h2 class="user-name"></h2>
         <p class="user-nickname"></p>
         <p class="user-role"></p> -->
     </section>
+        <template id="favThings">
+            <div class="favSections">
+                <div class="Favourite">
+                    <h1 class="hidden"></h1>
+                    <h2 class="favTitle"></h2>
+                    <img src="temp.jpg" alt="An Image of Spencers Favourite Things">
+                    <p class="description"></p>
+                </div>
+            </div>
+        </template>
 
-    <template id="favThings">
-        <div class="user">
-            <h1 class="hidden"></h1>
-            <h2 class=""></h2>
-            <img src="temp.jpg" alt="An Image of Spencers Favourite Things">
-            <p class="user-nickname"></p>
-            <p class="user-role"></p>
-        </div>
-    </template>
+
 <script src="./js/main.js" type="module"></script>
 </body>
 </html>

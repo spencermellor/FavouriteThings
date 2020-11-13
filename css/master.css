@@ -1,0 +1,63 @@
+.header {
+  text-align: center;
+  text-transform: uppercase;
+}
+.header h2 {
+  font-family: "Archivo Black", "Helvetica", sans-serif;
+  font-size: 50px;
+  margin-bottom: -25px;
+}
+.header h3 {
+  font-family: "Archivo Black", "Helvetica", sans-serif;
+  font-size: 20px;
+}
+.header p {
+  font-size: 14px;
+  font-family: "Raleway", "Helvetica", sans-serif;
+}
+
+.user-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.favSections {
+  width: 30%;
+  min-width: 375px;
+}
+.favSections p {
+  font-family: "Raleway", "Helvetica", sans-serif;
+}
+
+.Favourite {
+  box-sizing: border-box;
+  padding: 12px;
+  text-align: center;
+  width: 100%;
+}
+.Favourite img {
+  width: 100%;
+  text-align: center;
+}
+.Favourite .favTitle {
+  font-family: "Archivo Black", "Helvetica", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+body {
+  font: "Raleway", "Helvetica", sans-serif;
+  font-size: 12px;
+  color: #f2f2f2;
+  background-color: #1c1c1c;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=master.css.map */

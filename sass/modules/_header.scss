@@ -1,0 +1,27 @@
+.header {
+
+    text-align: center;
+    text-transform: uppercase;
+
+    h2 {
+        font-family: $main-title-font;
+        font-size: 50px;
+        margin-bottom: -25px;
+    }
+
+    h3 {
+        font-family: $main-title-font;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: $main-font;
+    }
+}
+
+// .outline {
+//     color: transparent;
+//     -webkit-text-stroke-width: 1px;
+//     -webkit-text-stroke-color: #9aff6e;
+// }
